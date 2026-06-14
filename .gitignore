@@ -1,0 +1,15 @@
+venv/
+.venv/
+.venv-1/
+__pycache__/
+*.pyc
+backend/uploads/*
+backend/fixai.db
+uploads/
+node_modules/
+frontend/dist/
+.env
+backend/.env
+.DS_Store
+Thumbs.db
+frontend/.env

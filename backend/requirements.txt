@@ -1,0 +1,33 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+pydantic-settings==2.5.2
+python-multipart==0.0.9
+aiofiles==24.1.0
+python-dotenv==1.0.1
+
+# AI / LLM
+anthropic==0.34.0
+openai==1.51.0
+
+# Vision
+Pillow==10.4.0
+# opencv-python==4.10.0.84   # uncomment for video frame extraction
+# ultralytics==8.2.100       # uncomment for YOLO detection
+
+# Speech
+# openai-whisper==20231117   # uncomment for local Whisper STT
+gtts==2.5.3                  # Google TTS (default, needs internet)
+# pyttsx3==2.90              # offline TTS alternative
+
+# Database
+sqlalchemy==2.0.35
+aiosqlite==0.20.0
+
+# RAG / Vector Store
+# chromadb==0.5.11           # uncomment for RAG vector store
+# sentence-transformers==3.1.1  # uncomment for embeddings
+
+# Utils
+httpx==0.27.2
